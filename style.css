@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    border-radius: 50%;
+}
+
+.container{
+    width: 800px;
+    height: 500px;
+    border: 1px solid azure;
+    background-color: linear-gradient(to bottom, #ffcccc 0%, #ffffcc 82%);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content:space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container h1{
+    text-align: center;
+}
+
+.first-row{
+     display: flex;
+}
+
+
+
+.owner{
+    width: 100%;
+    margin-right: 10px;
+}
+
+.input-field{
+    border: 1px solid #999;
+    
+  
+}
+
+.input-field input{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+    background-color:azure;
+    
+}
+
+.input-field input:hover{
+    background-color:paleturquoise;
+    
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.selection select{
+    padding: 10px 20px;
+    background-color: azure;
+    
+}
+.Fourth-row  .input-field{
+    width:530px;
+}
+
+/* .selection select:hover{
+    background-color:paleturquoise;
+
+} */
+
+
+
+
+a{
+    position: relative;
+    bottom: 20px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+a:hover{
+    background-color: dodgerblue;
+    font-size: 30px;
+}
+
+.cards img{
+    width: 100px;
+    cursor: pointer;
+}
+
+.cards-2 img{
+    width: 70px;
+    position: relative;
+    left: 530px;
+    bottom: 55px;
+    cursor:progress;
+    
+
+}
+
+.checkbox{
+    position: relative;
+    bottom: 55px;
+    color:black;
+}
+

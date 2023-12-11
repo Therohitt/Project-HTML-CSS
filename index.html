@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Form</title>
+    <!-- <link rel="stylesheet" href="Payment.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Bhim upi.png">
+</head>
+
+<body>
+    <div class="container">
+        <h1> Payment Method</h1>
+        <div class="first-row">
+            <div class="owner">
+                <h3>Cardholder Name</h3>
+                <div class="input-field">
+                    <input type="text" >
+                </div>
+            </div>
+            <div class="cvv">
+                <h3>CVV</h3>
+                <div class="input-field">
+                    <input type="password">
+                </div>
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="card-number">
+                <h3>Card details</h3>
+                <div class="input-field">
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+        <div class="third-row">
+            <h3>VALID THRU</h3>
+            <div class="selection">
+                <div class="date">
+                    <select name="months" id="months">
+                        <option value="Month">Month</option>
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="Mar">Mar</option>
+                        <option value="Apr">Apr</option>
+                        <option value="May">May</option>
+                        <option value="Jun">Jun</option>
+                        <option value="Jul">Jul</option>
+                        <option value="Aug">Aug</option>
+                        <option value="Sep">Sep</option>
+                        <option value="Oct">Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+                    </select>
+                    <select name="years" id="years">
+                        <option value="Year">Year</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+
+                    </select>
+                </div>
+                <div class="cards">
+                    <img src="/img/Mastercard.png"
+                        alt="Mastercard">
+                    <img src="img/Paypal.png"
+                        alt="Paypal">
+                    <img src="img/Visa.png"
+                        alt="Visa">
+                </div>
+            </div>
+            <div class="Fourth-row">
+                <div class="Upi">
+                    <h3>UPI</h3>
+                    <div class="input-field">
+                        <input type="text">
+                    </div>
+                    <div class="cards-2" required>
+                        <img src="img/Bhim upi.png"
+                            alt="Bhim-upi">
+                        <img src="img/Paytm.png"
+                            alt="paytm">
+                        <img src="img/phonepe-logo-icon.png"
+                            alt="phonepay">
+                    </div>
+                    <div class="checkbox">
+                    <input type="checkbox"> <b>Read carefully before Submitting</b>
+                </div>
+                </div>
+                <a href="index1.html">Submit</a>
+            </div>
+</body>
+
+</html>
